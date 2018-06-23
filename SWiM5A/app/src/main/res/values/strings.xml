@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SWiM 5A</string>
+    <string name="light_status">Sensor natężenia światła:</string>
+    <string name="accel_status">Sensor przyspieszenia:</string>
+    <string name="gps_status">GPS:</string>
+    <string name="txt_avail">Dostępny</string>
+    <string name="txt_unavail">Niedostępny</string>
+</resources>

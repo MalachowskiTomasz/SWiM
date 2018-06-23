@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Fragment2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Imie" />
+
+                <EditText
+                    android:id="@+id/nameEditText"
+                    android:layout_weight="3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Wiek" />
+
+                <EditText
+                    android:id="@+id/ageEditText"
+                    android:layout_weight="3"
+                    android:inputType="numberSigned" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/addCatButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dodaj kota" />
+
+        <ListView
+            android:id="@+id/catlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lightinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/light_status" />
+
+    <Button
+        android:id="@+id/ASensorLightButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Natężenie światła" />
+
+    <TextView
+        android:id="@+id/accelinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accel_status" />
+
+    <Button
+        android:id="@+id/ASensorAccelerationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Przyspieszenie" />
+
+    <TextView
+        android:id="@+id/gpsinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/GPSButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lokalizacja" />
+</LinearLayout>

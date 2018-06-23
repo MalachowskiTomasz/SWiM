@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/javaMenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JavaMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/xmlMenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XMLMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/javaMenuButton" />
+
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ActionContextMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xmlMenuButton" />
+
+</LinearLayout>

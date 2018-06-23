@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SWiM</string>
+    <string name="opis">Aplikacja testowa uzywajaca wielu aktywnosci i kontrolek</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="imie">Imie</string>
+    <string name="email">Email</string>
+    <string name="pensja">Pensja</string>
+    <string name="toast">Toast</string>
+    <string name="back">Back</string>
+    <string name="przytrzymaj">Gratulacje! Udało ci się! Przytrzymaj aby wrócić!</string>
+    <string name="zacheta">Jeszcze troche! Nie poddawaj się!</string>
+    <string name="scrolluj">Scrolluj w dół</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="opcja_1">Opcja 1</string>
+    <string name="opcja_2">Opcja 2</string>
+    <string name="textview">Sciemnienie</string>
+    <string name="logo">Logo androida</string>
+</resources>

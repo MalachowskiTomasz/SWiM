@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SWiM3</string>
+    <string name="o_autorze">O Autorze</string>
+    <string name="przejdz">Przejdz</string>
+    <string name="opacity">Przezroczystość</string>
+    <string name="title">Tytuł</string>
+    <string name="autor">Małachowski Tomasz</string>
+    <string name="nightmode">Tryb nocny</string>
+    <string name="showimage">Wyswietlanie obrazu</string>
+</resources>

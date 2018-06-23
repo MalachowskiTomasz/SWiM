@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordActivity">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:hint="Tytul"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/authorEditText"
+        android:hint="Autor"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:hint="Opis"
+        android:inputType="text" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/backToListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LISTA" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/removeRecordingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:text="Skasuj" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:text="Zapisz" />
+
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/startstopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Start" />
+
+    <SeekBar
+        android:id="@+id/thresholdSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:max="3000" />
+
+    <ProgressBar
+        android:id="@+id/volumeProgressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:max="2000"
+        android:progress="0" />
+</TableLayout>
